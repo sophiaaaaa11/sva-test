@@ -1,0 +1,33 @@
+html, body {
+    margin: 10px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000
+  }
+
+  .my-text {
+      color: #f00;
+  }
+
+  .my-button {
+      color: #f00;
+  }
+
+  .list {
+    display: flex;
+    background-color: aqua;
+    border-radius: 30px;
+
+  }
+
+  .my-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  canvas {
+    display: block;
+  }
+  
