@@ -1,5 +1,25 @@
+let links = [];
 function setup(){
-    createCanvas(400, 400);
-    background(150);
-    ellipse(100,100,100);
+    for (let i = 0; i< 25; i++){
+        const link = createA("#", "Yahoo!!");
+        link.position (random(500), random(500));
+        link.mouseClicked(onMouseClick);
+        link.mouseOver(onMouseOver);
+        link.mouseOut(onMouseOut);
+        links.push(link);
     }
+}
+
+function onMouseClick(){
+    this.style("background-color", "green");
+}
+
+function onMouseOver(){
+    this.style("background-color", "pink");
+    this.style("color", "black");
+}
+
+function onMouseOut(){
+    this.style("background-cplpr","red");
+    this.style("color", "white");
+}

@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title> Sophia's Homepage</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-nav {
+        display: flex;
+        background-color: #555;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0.5em;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .content-container {
+        display: flex;
+        width: 100%;
+    }
+
+    .content-container .side-nav {
+        background-color: #ddd;
+        hight: 100vh;
+        min-width: 150px;
+    }
+
+    .content-container .side-nav li {
+        padding: 10px;
+    }
+
+    .content-container .content {
+        padding: lem;
+    }
+
+    .side-nav-item {
+        cursor: pointer;
+    }
+
+    .iframe {
+        width: 500px;
+        height: 500px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <ul class="top-nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="content-container">
+        <div class="side-nav">
+            <ul>
+                <li class="side-nav-item" data-id="project_1">Project 1</li>
+                <li class="side-nav-item" data-id="project_2">Project 2</li>
+                <li class="side-nav-item" data-id="project_3">Project 3</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="project project_1">
+                <main></main>
+            </div>
+            <div class="project project_2" hidden>
+                <iframe class="iframe" src="https://editor.p5js.org/sophia.su0527/full/_ZZNzp55H"></iframe>
+            </div>
+            <div class="project project_3" hidden>
+                <iframe class="iframe" src="https://editor.p5js.org/sophia.su0527/full/_ZZNzp55H"></iframe>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
