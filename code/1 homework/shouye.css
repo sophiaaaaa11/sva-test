@@ -1,0 +1,77 @@
+body {
+    background-color: #53d3ec; 
+}
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1200px;
+    /*height: 1800px;*/
+    background-color: #53d3ec;
+    margin:auto;
+}
+.logo{
+    width: 1200px;
+    height: 132px;
+    background-color: #000;
+     
+}
+.logo img{
+    margin: c;
+    width: 1000px;
+}
+.nav{
+    margin: center;
+    width: 1200px;
+    height: 60px;
+    background-color: #134373;
+}
+ul{
+    width: 1200px;
+}
+li{
+    width: 225px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    background-color: #134373;
+}
+li:hover{
+    background-color: #247bd2;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+.banner{
+    width: 1200px;
+}
+.banner img{
+    width: 1200px;
+}
+.words{
+    width: 1200px;
+    height: 700px;
+    color: #582929;
+    font-size: 18px;
+    padding: 48px;
+}
+words h3{
+    margin: 20px;
+}
+.words p{
+    text-indent: 2rem;
+    line-height: 30px;
+}
+
+.words-right{
+    float: right;
+    width: 700px;
+    height: 600px;
+    background-image: url(image/jrsy-2.jpg);
+}

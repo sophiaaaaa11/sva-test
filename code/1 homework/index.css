@@ -1,0 +1,14 @@
+body{
+	background: url(../images/hezhao.jpg) repeat fixed center;
+}
+img{
+	width: 506px;
+	height: 188px;
+	position: absolute;
+	top: 250px;
+	left: 450px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(0.8);
+}
